@@ -4,8 +4,8 @@ namespace Online.Store.Domain.Entities
 {
   public class UserEntity
   {
-    public UserIdValueObject UserId { get; set; }
-    public UserNameValueObject UserName { get; set; }
+    public UserIdValueObject UserId { get; }
+    public UserNameValueObject UserName { get; }
 
     public UserEntity(string? userName = null)
     {
